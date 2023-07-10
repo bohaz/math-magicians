@@ -111,9 +111,9 @@ npm start
 
 To run tests, run the following commands:
 
--HTML linter errors run:
+- ESLint linter errors run:
 
-``` npx hint . ```
+``` npx eslint "**/*.{js,jsx}" ```
 
 -CSS linter errors run:
 
