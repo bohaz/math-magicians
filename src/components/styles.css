@@ -56,3 +56,10 @@ body {
 .calculator-grid > button:hover {
   background-color: white;
 }
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-top: 2%;
+}
