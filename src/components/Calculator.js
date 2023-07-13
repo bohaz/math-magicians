@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './styles.css';
 import CalculatorTitle from './AppTitle';
 import calculate from '../logic/calculate';
+import Quote from './Quote';
 
 function App() {
   const [currentOperand, setCurrentOperand] = useState({
@@ -42,7 +43,7 @@ function App() {
         <button type="button" onClick={() => handleClick('.')}>.</button>
         <button type="button" className="orange" onClick={() => handleClick('=')}>=</button>
       </div>
-
+      <Quote />
     </div>
   );
 }
