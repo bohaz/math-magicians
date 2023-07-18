@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import './styles.css';
-import CalculatorTitle from './AppTitle';
 import calculate from '../logic/calculate';
-import Quote from './Quote';
 
-function App() {
+function Calculator() {
   const [currentOperand, setCurrentOperand] = useState({
     total: null,
     next: null,
@@ -16,9 +14,8 @@ function App() {
   };
 
   return (
-    <div>
-      <CalculatorTitle />
-
+    <div className="calculator-container">
+      <h2 className="clalculator-title">Let&apos;s do some math!</h2>
       <div className="calculator-grid">
         <div className="output">
           <div className="current-operand">{currentOperand.next || currentOperand.total || '0'}</div>
@@ -43,9 +40,8 @@ function App() {
         <button type="button" onClick={() => handleClick('.')}>.</button>
         <button type="button" className="orange" onClick={() => handleClick('=')}>=</button>
       </div>
-      <Quote />
     </div>
   );
 }
 
-export default App;
+export default Calculator;
