@@ -18,7 +18,7 @@ function Calculator() {
       <h2 className="clalculator-title">Let&apos;s do some math!</h2>
       <div className="calculator-grid">
         <div className="output">
-          <div className="current-operand">{currentOperand.next || currentOperand.total || '0'}</div>
+          <div className="current-operand" data-testid="current-operand">{currentOperand.next || currentOperand.total || '0'}</div>
         </div>
         <button type="button" onClick={() => handleClick('AC')}>AC</button>
         <button type="button" onClick={() => handleClick('+/-')}>+/-</button>
