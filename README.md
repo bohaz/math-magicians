@@ -30,10 +30,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Math-Magicians] <a name="about-project"></a>
+# 📖 Math-Magicians <a name="about-project"></a>
 
 
-**[Math-Magicians]** It is a Single Page Application that allows users to Mmake simple math operations.
+**Math-Magicians** It is a Single Page Application that allows users to Mmake simple math operations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,7 +61,7 @@ React, Git, and GitHub
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- Demo link is coming soon!!   
+ - [Live Demo Link](https://ricardo-math-magicians.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,8 +133,8 @@ You can deploy this project using:
 👤 **Ricardo Martínez**
 
 - GitHub: [@bohaz](https://github.com/bohaz)
-- Twitter: [@Ricardo29115571](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@Ricardo29115571](https://twitter.com/Ricardo29115571)
+- LinkedIn: [Ricardo Martinez](https://www.linkedin.com/in/ricardomart%C3%ADnez%E2%88%B4/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
